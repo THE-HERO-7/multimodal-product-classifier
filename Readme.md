@@ -26,7 +26,7 @@ The pipeline consists of:
 - Pretrained CNN (EfficientNetB0)
 - `include_top = False`
 - Global Average Pooling
-- Output: fixed-length image embeddings (1280-D)
+- Output: fixed-length image embeddings (1536-D)
 
 ### 2. Text Feature Extraction
 - NLP vectorization (TF-IDF(ngram-(1,2)) / embedding based)
